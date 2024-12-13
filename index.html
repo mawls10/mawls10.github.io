@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz One Piece</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz interativo sobre One Piece</h1>
+            <p>Teste seus conhecimentos sobre One Piece e veja qual pontuação você consegue fazer!</p>
+        </header>
+        <main>
+            <!--Intodução-->
+            <section>
+                <h2>Sobre este quiz</h2>
+                <p><strong>One Piece</strong> é uma série de mangá escrita e ilustrada por <em>Eiichiro Oda.</em> Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde julho de 1997, com os capítulos compilados e publicados em 110 volumes tankōbon pela editora Shueisha até novembro de 2024. <p>One Piece segue as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um fruto do diabo acidentalmente.</p> 
+                <p>Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o "O Grande Tesouro "One Piece", a fim de se tornar o próximo Rei dos Piratas. One Piece atingiu a marca de mil capítulos publicados na <abbr title="Antologia semanal de mangá">Weekly Shonen Jump</abbr> em janeiro de 2021, se tornando um dos raros mangás a ultrapassar tal marca.</p>
+            </section>
+            <!--Pergunta 1: múltipla escolha-->
+            <section>
+                <h2>Pergunta 1:Qual nome da primeira pirata que o luffy enfrentou?</h2>
+                <form>
+                    <input type="radio" value="Big Mom" id="p1a" name="pergunta1">
+                    <label for="p1a">Big Mom</label><br>
+                    <input type="radio" value="Boa Hancock" id="p1b" name="pergunta1">
+                    <label for="p1b">Boa Hancock</label><br>
+                    <input type="radio" value="Alvida" id="p1c" name="pergunta1">
+                    <label for="p1c">Alvida</label><br>
+                    <input type="radio" value="Jewelry Bonney" id="p1d" name="pergunta1">
+                    <label for="p1d">Jewelry Bonney</label><br>
+                </form>
+            </section>
+            <!--Pergunta 2: Texto-->
+            <section>
+                <h2>Pergunta 2: No mundo de One Piece os poderes vem da fruta do___</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta:">
+                </form>
+            </section>
+            <!--Pergunta 3: Senha-->
+            <section>
+                <h2>Pergunta 3: Qual código luffy usou para se comunicar com sua tripulação após a guerra de marineford?</h2>
+                <form>
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite o código...">
+                </form>
+            </section>
+            <!--Pergunta 4: Data-->
+            <section>
+                <h2>Pergunta 4: Qual a data de lançamento do mangá de One Piece?</h2>
+                <form>
+                    <input type="date" id="p4" name="Pergunta4">
+                </form>
+            </section>
+            <!--Pergunta 5: Seleção múltipla-->
+            <section>
+                <h2>Quais desses personagens não fazem parte dos chapeus de palha?</h2>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="Enel">
+                    <label for="p5a">Enel</label>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="Zoro">
+                    <label for="p5b">Zoro</label>
+                    <input type="checkbox" id="p5c" name="pergunta5" value="Ace">
+                    <label for="p5c">Ace</label>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="Jimbei">
+                    <label for="p5d">Jimbei</label>
+                </form>
+            </section>
+            <!--Pergunta 6: upload-->
+            <section>
+                <h2>Faça o upload de uma imagem de One Piece</h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+            <!--Pergunta 7: menu suspenso(dropdown)-->
+            <section>
+                <h2>Selecione o nome do imediato do GOL D. Roger:</h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="Roronoa Zoro">Roronoa Zoro</option>
+                        <option value="Barba Branca">Barba Branca</option>
+                        <option value="Oden">Oden</option>
+                        <option value="Silvers Rayleigh">Silvers Rayleigh</option>
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 8: imagem-->
+            <section>
+                <h2>Qual bando pirata representado pela imagem abaixo:</h2>
+                <figure><img src="imagens/one_piece_icone.png" alt="imagem do logotipo dos chapeus de palha"><br>
+                    <figcaption>Figura 1: logotipo de um bando de piratas</figcaption>
+                </figure>
+                <input type="text" id="p8" name="pergunta8"
+                placeholder="Digite sua resposta...">
+            </section>
+            <!--tabela de pontuação-->
+            <section>
+                <h2>Tebela de pontuação</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>    
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Você não assistiu ou leu o mangá</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Você precisa assistir ou ler mais</td>
+                    </tr>
+                    <tr>
+                        <td>5-6</td>
+                        <td>Você está por dentro do mundo de One Piece</td>
+                    </tr>
+                    <tr>
+                        <td>7-8</td>
+                        <td>Você é um nerdola de One Piece Parabéns!</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima! continue assistindo para melhorar!</td>
+                    </tr>
+                </tfoot>
+                </table>
+            </section>
+            <!--lista de respostas-->
+            <section>
+                <h2>Verifique as respostas corretas</h2>
+                <details>
+                    <summary> Clique aqui para ver as respostas do quiz</summary>
+                <ol>
+                    <li>Alvida</li>
+                    <li>diabo</li>
+                    <li>3d2y</li>
+                    <li>22/07/1997</li>
+                    <li>ENEL, ACE</li>
+                    <li>Arquivo de imagem de one piece</li>
+                    <li>Silvers Rayleigh</li>
+                    <li>chapéu de palha</li>
+                </ol>
+            </details>
+            </section>
+            <!--Formulário de feedback-->
+            <section>
+                <h2>Nos dê o seu feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações de contato</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="comentarios">Comentários:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui..."></textarea><br>
+                    <button onclick="alert('FEEDBACK ENVIADO')">Envie o seu feedback</button>
+                </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p class="paragrafo-footer">&copy;Quiz de One Piece. Todos os direitos reservados</p>
+            <p class="paragrafo-footer">Para conhecer mais sobre One Piece <a href="https://onepiece.fandom.com/pt/wiki/One_Piece_(Mang%C3%A1)" target="_blank">clique aqui</a></p>
+        </footer>
+    </body>
+</html>
